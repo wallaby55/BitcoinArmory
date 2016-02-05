@@ -1,15 +1,19 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Some information about you!
+Armory is a full-featured Bitcoin client, offering a dozen innovative features not found in any other client software! Manage multiple wallets (deterministic and watching-only), print paper backups that work forever, import or sweep private keys, and keep your savings in a computer that never touches the internet, while still being able to manage incoming payments, and create outgoing payments with the help of a USB key.
 
-### More Information
+**Armory has no independent networking components built in.** Instead, it relies on on the Satoshi client to securely connect to peers, validate blockchain data, and broadcast transactions for us. Although it was initially planned to cut the umbilical cord to the Satoshi client and implement independent networking, it has turned out to be an inconvenience worth having. Reimplementing all the networking code would be fraught with bugs, security holes, and possible blockchain forking. The reliance on Bitcoin-Qt right now is actually making Armory more secure!
 
-A place to include any other types of information that you'd like to include about yourself.
+Credits
+-------
+**Open Source Project:**  
+Farhod Fathpour (@goatpig) - Open Source Project Lead  
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+**Armory Technologies Incorporated (No longer participating):**  
+Alan Reiner (@etotheipi) - Project Creator and Former Project Lead  
+Andy Ofiesh (@AndyOfiesh) - Former Lead Developer  
+Farhod Fathpour (@goatpig) - Former Developer  
+Charles Samuels (@njaard) - Former Developer  
