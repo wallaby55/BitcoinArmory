@@ -1,0 +1,32 @@
+<div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            
+            <ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+              <li{% if page.id == 'releases' %} class="active"{% endif %}><a href="{{ site.baseurl }}/releases">Releases</a>
+              <li><a>Documentation</a>
+            <ul>
+              <li{% if page.id == 'building' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs/building">Building From Source</a></li>
+              <li{% if page.id == 'verify' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs/verify">Verify Binaries</a></li>
+            </ul>
+            <li{% if page.id == 'contribute' %} class="active"{% endif %}><a href="{{ site.baseurl }}/contribute">Contribute</a>
+            <ul>
+              <li{% if page.id == 'armory-todo' %} class="active"{% endif %}><a href="/{{ site.baseurl }}/contribute/armory-todo">Armory To-Do list</a>
+              <li{% if page.id == 'website-todo' %} class="active"{% endif %}><a href="/{{ site.baseurl }}/contribute/website-todo">Website To-Do list</a></li>
+            </ul>
+              <li{% if page.id == 'contact' %} class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+              <li{% if page.id == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div
+
