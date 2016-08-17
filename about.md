@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Armory is a full-featured Bitcoin client, offering a dozen innovative features not found in any other client software! Manage multiple wallets (deterministic and watching-only), print paper backups that work forever, import or sweep private keys, and keep your savings in a computer that never touches the internet, while still being able to manage incoming payments, and create outgoing payments with the help of a USB key.
@@ -9,11 +10,11 @@ Armory is a full-featured Bitcoin client, offering a dozen innovative features n
 
 Credits
 -------
-**Open Source Project:**  
-Farhod Fathpour (@goatpig) - Open Source Project Lead  
+**Open Source Project:** 
+Farhod Fathpour (@goatpig) - Open Source Project Lead 
 
-**Armory Technologies Incorporated (No longer participating):**  
-Alan Reiner (@etotheipi) - Project Creator and Former Project Lead  
-Andy Ofiesh (@AndyOfiesh) - Former Lead Developer  
-Farhod Fathpour (@goatpig) - Former Developer  
-Charles Samuels (@njaard) - Former Developer  
+**Armory Technologies Incorporated (No longer participating):** 
+Alan Reiner (@etotheipi) - Project Creator and Former Project Lead 
+Andy Ofiesh (@AndyOfiesh) - Former Lead Developer 
+Farhod Fathpour (@goatpig) - Former Developer 
+Charles Samuels (@njaard) - Former Developer
