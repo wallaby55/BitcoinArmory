@@ -8,6 +8,10 @@ Armory is a full-featured Bitcoin client, offering a dozen innovative features n
 
 **Armory has no independent networking components built in.** Instead, it relies on on the Satoshi client to securely connect to peers, validate blockchain data, and broadcast transactions for us. Although it was initially planned to cut the umbilical cord to the Satoshi client and implement independent networking, it has turned out to be an inconvenience worth having. Reimplementing all the networking code would be fraught with bugs, security holes, and possible blockchain forking. The reliance on Bitcoin-Qt right now is actually making Armory more secure!
 
+## Contact
+
+The easiest way to contact the developers is to post in the [Armory forum on Bitcointalk](https://bitcointalk.org/index.php?board=97.0). For bug reports, please use the [github issue traker](https://github.com/goatpig/BitcoinArmory/issues).
+
 Credits
 -------
 **Open Source Project:** 
