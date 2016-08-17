@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact/
+id: contact
 ---
 
 There is no official Armory email address. The easiest way to contact the developers is to use Bitcointalk.org or the IRC channel.
