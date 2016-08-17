@@ -10,7 +10,7 @@ Armory is a full-featured Bitcoin client, offering a dozen innovative features n
 
 ## Contact
 
-The easiest way to contact the developers is to post in the [Armory forum on Bitcointalk](https://bitcointalk.org/index.php?board=97.0). For bug reports, please use the [github issue traker](https://github.com/goatpig/BitcoinArmory/issues).
+The easiest way to contact the developers is to post in the [Armory forum on Bitcointalk](https://bitcointalk.org/index.php?board=97.0). For bug reports, please use the [github issue tracker](https://github.com/goatpig/BitcoinArmory/issues).
 
 Credits
 -------
