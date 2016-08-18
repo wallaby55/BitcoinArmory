@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+    <section id="contributors">
+      <h2 id="bitcoin-core-contributors">{{ contributors }}</h2>
+      <p>{{ contributorsorder }}</p>
+      <div class="contributors">
+        {% for c in site.corecontributors %}
+        <div>
+          <div>{% if c.avatar_url %}<img src="{{c.avatar_url}}" alt="icon" />{% else %}<img alt="icon" />{% endif %}</div>
+          <div><a{% if c.login %} href="https://github.com/{{c.login}}"{% endif %}>{{ c.name | htmlescape }}</a></div>
+          <div>({{ c.contributions }})</div>
+        </div>
+        {% endfor %}
+      </div>
+    </section> 
+  </div>
+</article>
