@@ -25,6 +25,10 @@ For ideas on what to contribute, take a look at the [Website To-Do list](website
 
 The project utilizes the issue tracker feature of github. If you find a bug in the software, submit a new issue to the [issue tracker](https://github.com/goatpig/BitcoinArmory/issues). Be sure to include the Armory logfile and replication instructions. If necessary, include Bitcoin Core's debug.log file.
 
+### Translations
+
+Armory and the Armory Website both will accept translations through Transifex. The Armory software translations can be contributed to the [Armory Software Transifex](https://transifex.com/bitcoin-armory). Website translations will be available soon.
+
 ### Contributors
 
 Thank you to the following who have contributed to this project and the website
