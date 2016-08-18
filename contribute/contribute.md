@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contribute
 title: Contribute
 permalink: /contribute/
 id: contribute
@@ -32,14 +32,3 @@ Armory and the Armory Website both will accept translations through Transifex. T
 ### Contributors
 
 Thank you to the following who have contributed to this project and the website
-
- - Alan Rainer (etotheipi)
- - Farhod Fathpour (goatpig)
- - Andy O'Fiesh (andyOfiesh)
- - Charles Samuels (njaard)
- - Douglas Roark (droark)
- - Jimmy Song (jimmysong)
- - Andrew Chow (achow101)
- - Michael Ford (fanquake)
- - James Hilliard (jameshilliard)
- - Jeffery Lin (AnAverageHuman)
