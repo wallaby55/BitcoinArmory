@@ -15,7 +15,7 @@ Credits
 
  - Farhod Fathpour (@goatpig) - Open Source Project Lead 
 
-[Current Source code repository](https://github.com/etotheipi/BitcoinArmory)
+[Current Source code repository](https://github.com/goatpig/BitcoinArmory)
 
 **Armory Technologies Incorporated (No longer participating):** 
 
