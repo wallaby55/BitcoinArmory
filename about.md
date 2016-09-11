@@ -23,6 +23,8 @@ Credits
  - Andy Ofiesh (@AndyOfiesh) - Former Lead Developer 
  - Farhod Fathpour (@goatpig) - Former Developer 
  - Charles Samuels (@njaard) - Former Developer
+ - Douglas Roark (@droark) - Former Developer
+ - Jimmy Song (@jimmysong) - Former Developer
 
 [Original Source code repository](https://github.com/etotheipi/BitcoinArmory)
 
