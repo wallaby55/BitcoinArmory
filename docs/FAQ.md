@@ -101,6 +101,9 @@ The Armory command line arguments are as follows:
                         Unit Test Argument - Do not consume
   --coverage_include=COVERAGEINCLUDE
                         Unit Test Argument - Do not consume
+  --language=LANG       Set the language for the client to display in. Use the 
+                        ISO 639-1 language code to choose a language. Options are 
+                        da, de, en, es, el, fr, he, hr, id, ru, sv. Default is en.
 ~~~
 
 ## What if Armory stops being developed?
@@ -120,10 +123,10 @@ Armory currently supports:
  - BIP 21 for the Bitcoin URI scheme
  - BIP 31 for the pong network message
  - BIPs 62 and 66 for Low-S and Strict DER signatures
+ - BIPs 141, 143, and 144 for Segregated Witness (Except for deployment)
 
 There is planned support for:
  - BIP 32 for Heirarchical Determinisitc wallets
- - BIPs 141, 143, and 144 for Segregated Witness
 
 ## Will Armory work with full nodes other than Bitcoin Core?
 
