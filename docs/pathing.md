@@ -8,9 +8,9 @@ id: pathing
 * Table of Contents
 {:toc}
 
-The Armory stacks uses 3 processes and 3 paths:
+The Armory stacks uses 3 processes and 3 paths
 
-## 1) Your Bitcoin node
+## Your Bitcoin node
 
 It needs a single path, its datadir, where it maintains blockchain data.
 
@@ -36,7 +36,7 @@ armory --satoshi-datadir="/some/custom/path"
 
 Note that Armory takes its CLI args with 2 dashes (--) whereas your node takes a single dash (-).
 
-## 2) ArmoryDB
+## ArmoryDB
 
 Armory's DB process needs to know of 3 paths: the Armory datadir and the dbdir and the node datadir.
 
@@ -72,7 +72,7 @@ ArmoryDB --dbdir="/some/custom/path"
 
 c) The node datadir is described in section 1). The CLI arg to set point ArmoryDB to a custom node datadir is --satoshi-datadir
 
-3) ArmoryQt
+## ArmoryQt
 
 ArmoryQt is a bit special in that, as the GUI, it manages both your node and the db by default. Therefor, the amount of paths it needs to know about may vary:
 
@@ -86,7 +86,7 @@ Assuming you want to run Armory with a custom node datadir and custom dbdir, wit
 armory --satoshi-datadir="/custom/blockchain/path" --dbdir="/custom/database/path/"
 ~~~
 
-4) Config files
+## Config files
 
 CLI args do not persists the process. If you want to run Armory with custom paths, you need to spawn it with the same CLI args every run. A way around this using the config files.
 
@@ -115,7 +115,7 @@ The config file rules are as follow:
 Because of the second property, the ArmoryDB config file is not useful for regular operations. Since in this case the GUI is managing the DB, it will pass it pathing arguments that will override anything in the .conf.
 Generally, when it comes to pathing, you only really care about armoryqt.conf
 
-5) Example
+## Example
 
 Say you are Windows, and your user name is Adam.
 
