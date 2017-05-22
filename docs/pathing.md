@@ -8,7 +8,7 @@ id: pathing
 * Table of Contents
 {:toc}
 
-The Armory stacks uses 3 processes and 3 paths
+The Armory stack uses 3 processes and 3 paths
 
 ## Your Bitcoin node
 
@@ -25,7 +25,7 @@ This folder defaults to:
 If you want to specify a custom datadir for your node, you'd run it with the -datadir command line (CLI) argument:
 
 ~~~
-BitcoinQt -datadir="/some/custom/path".
+BitcoinQt -datadir="/some/custom/path"
 ~~~
 
 If instead of running BitcoinQt manually, you let Armory manage it for you, you have to give the custom blockchain datadir to Armory, using the --satoshi-datadir CLI arg:
@@ -40,37 +40,29 @@ Note that Armory takes its CLI args with 2 dashes (--) whereas your node takes a
 
 Armory's DB process needs to know of 3 paths: the Armory datadir and the dbdir and the node datadir.
 
-a) The datadir is where Armory's wallet and settings files are maintained. It defaults to:
+1. The datadir is where Armory's wallet and settings files are maintained. It defaults to:
 
-~~~
-"~/Armory" on Windows
-"~/.armory" on Linux
-"~/Library/Application Support/Armory" on OSX
-~~~
+        "~/Armory" on Windows
+        "~/.armory" on Linux
+        "~/Library/Application Support/Armory" on OSX
 
-You can set a custom datadir using the --datadir CLI arg:
+    You can set a custom datadir using the --datadir CLI arg:
 
-~~~
-ArmoryDB --datadir="/some/custom/path"
-~~~
+        ArmoryDB --datadir="/some/custom/path"
 
-b) The dbdir is where Armory's DB maintains its own files. It defaults to:
+2. The dbdir is where Armory's DB maintains its own files. It defaults to:
 
-~~~
-"~/Armory/databases" on Windows
-"~/.armory/databases" on Linux
-"~/Library/Application Support/Armory/databases" on OSX
-~~~
+        "~/Armory/databases" on Windows
+        "~/.armory/databases" on Linux
+        "~/Library/Application Support/Armory/databases" on OSX
 
-As you can see, the dbdir defaults to the datadir + "/databases". If ArmoryDB is not given a custom dbdir, it will append "/databases" to the datadir.
+    As you can see, the dbdir defaults to the datadir + "/databases". If ArmoryDB is not given a custom dbdir, it will append "/databases" to the datadir.
 
-To set a custom dbdir, use the --dbdir CLI arg:
+    To set a custom dbdir, use the --dbdir CLI arg:
 
-~~~
-ArmoryDB --dbdir="/some/custom/path"
-~~~
+        ArmoryDB --dbdir="/some/custom/path"
 
-c) The node datadir is described in section 1). The CLI arg to set point ArmoryDB to a custom node datadir is --satoshi-datadir
+3. The node datadir is described in section 1. The CLI arg to set point ArmoryDB to a custom node datadir is `--satoshi-datadir`.
 
 ## ArmoryQt
 
@@ -82,9 +74,7 @@ If ArmoryQt is controlling your Bitcoin node (this is a default setting) it need
 
 Assuming you want to run Armory with a custom node datadir and custom dbdir, with node and db controlled by the client, your command line would look like this:
 
-~~~
-armory --satoshi-datadir="/custom/blockchain/path" --dbdir="/custom/database/path/"
-~~~
+    armory --satoshi-datadir="/custom/blockchain/path" --dbdir="/custom/database/path/"
 
 ## Config files
 
@@ -99,10 +89,8 @@ Both reside in Armory's datadir. Any CLI args you can feed to either the GUI or 
 
 Taking the previous example, you could pass the same path arguments in armoryqt.conf. The content of the file would look like this:
 
-~~~
-satoshi-datadir="/custom/blockchain/path"
-dbdir="custom/database/path"
-~~~
+    satoshi-datadir="/custom/blockchain/path"
+    dbdir="custom/database/path"
 
 The config file rules are as follow:
 
@@ -121,17 +109,14 @@ Say you are Windows, and your user name is Adam.
 
 We know that by default your paths are:
 
-~~~
-Node datadir: C:\Users\Adam\AppData\Roaming\Bitcoin\blocks
-Armory datadir: C:\Users\Adam\AppData\Roaming\Armory
-Armory dbdir: C:\Users\Adam\AppData\Roaming\Armory\databases
-~~~
+    Node datadir: C:\Users\Adam\AppData\Roaming\Bitcoin\blocks
+    Armory datadir: C:\Users\Adam\AppData\Roaming\Armory
+    Armory dbdir: C:\Users\Adam\AppData\Roaming\Armory\databases
 
 Now let's say your blockchain data is on an external drive, at "D:\Bitcoin" and you want your database dir on that drive as well, at "D:\ArmoryDB".
 
-To achieve this, you want to create/modify the GUI config file in your Armory datadir, which is "C:\Users\Adam\AppData\Roaming\Armory\armoryqt.conf". The config file should look like this:
+To achieve this, you want to create/modify the GUI config file in your Armory datadir, which is `C:\Users\Adam\AppData\Roaming\Armory\armoryqt.conf`. The config file should look like this:
 
-~~~
-satoshi-datadir="D:\Bitcoin\blocks"
-dbdir="D:\ArmoryDB"
-~~~
+    satoshi-datadir="D:\Bitcoin\blocks"
+    dbdir="D:\ArmoryDB"
+
