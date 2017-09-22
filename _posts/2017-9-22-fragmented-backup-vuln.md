@@ -1,8 +1,8 @@
 ---
 layout: post
-title: URGENT: Fragmented Backups Vulnerability
+title: "URGENT: Fragmented Backups Vulnerability"
 category: news
-date: 2017-03-26 23:30:00 -0500
+date: 2017-09-22 1:00:00 -0400
 ---
 
 This vulnerability has been fixed in Armory 0.96.3 and later. **Consider all wallets that use fragmented backups to be compromised and migrate all funds to a new wallet. If you want to use fragmented backups, update to [Armory 0.96.3](/0.96.3-release) immediately.**
