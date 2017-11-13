@@ -14,7 +14,7 @@ Bitcoin is a decentralized peer-to-peer digital currency. Using cryptography and
 
 Bitcoin is also a trustless system. There is no central authority to trust, in fact, no full node on the network trusts any other full node. Instead each node will verify every single block and transaction to ensure that the data it receives conforms to its own rules, which must be the rules that everyone else follows in order for that node to be a part of the network.
 
-For more information, please visit [https://bitcoin.org](https://bitcoin.org) and [https://bitcoin.com](https://bitcoin.com).
+For more information, please visit [https://bitcoin.org](https://bitcoin.org) and [https://www.weusecoins.com/](https://www.weusecoins.com/).
 
 ## What is Armory?
 
